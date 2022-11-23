@@ -1,0 +1,14 @@
+{
+  "watchlist": [
+      {
+          "id": 1,
+          "watched":0,
+          "rating":0
+      },
+      {
+          "id": 2,
+          "watched":0,
+          "rating":0
+      }
+  ]
+}

@@ -1,0 +1,19 @@
+<article *ngIf="movie" class="flex flex-col justify-between h-full bg-white border-gray-200 border-2 p-6 shadow">
+    <div class="max-w-sm rounded overflow-hidden shadow-lg">
+        <img class="w-full" src="../../assets/img/empty_profile.png">
+        <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">movie.title</div>
+            <p class="text-gray-700 text-base">
+                movie.smth </p>
+        </div>
+        <div class="px-6 pt-4 pb-2">
+            <button
+                class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">buttonText
+
+            </button>
+            <div *ngIf="movie">
+                <!-- <li *ngFor="let tournament of movie">{{tournament}}</li> -->
+            </div>
+        </div>
+    </div>
+</article>
