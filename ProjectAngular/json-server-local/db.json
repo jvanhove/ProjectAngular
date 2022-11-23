@@ -1,14 +1,84 @@
 {
   "watchlist": [
-      {
-          "id": 1,
-          "watched":0,
-          "rating":0
-      },
-      {
-          "id": 2,
-          "watched":0,
-          "rating":0
-      }
+    {
+      "adult": false,
+      "backdrop_path": "/bQXAqRx2Fgc46uCVWgoPz5L5Dtr.jpg",
+      "genre_ids": [
+        28,
+        14,
+        878
+      ],
+      "id": 436270,
+      "original_language": "en",
+      "original_title": "Black Adam",
+      "overview": "Nearly 5,000 years after he was bestowed with the almighty powers of the Egyptian gods—and imprisoned just as quickly—Black Adam is freed from his earthly tomb, ready to unleash his unique form of justice on the modern world.",
+      "popularity": 22201.949,
+      "poster_path": "/3zXceNTtyj5FLjwQXuPvLYK5YYL.jpg",
+      "release_date": "2022-10-19",
+      "title": "Black Adam",
+      "video": false,
+      "vote_average": 6.9,
+      "vote_count": 1387
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/olPXihyFeeNvnaD6IOBltgIV1FU.jpg",
+      "genre_ids": [
+        27,
+        9648,
+        53
+      ],
+      "id": 882598,
+      "original_language": "en",
+      "original_title": "Smile",
+      "overview": "After witnessing a bizarre, traumatic incident involving a patient, Dr. Rose Cotter starts experiencing frightening occurrences that she can't explain. As an overwhelming terror begins taking over her life, Rose must confront her troubling past in order to survive and escape her horrifying new reality.",
+      "popularity": 2837.283,
+      "poster_path": "/aPqcQwu4VGEewPhagWNncDbJ9Xp.jpg",
+      "release_date": "2022-09-23",
+      "title": "Smile",
+      "video": false,
+      "vote_average": 6.8,
+      "vote_count": 812
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/yYrvN5WFeGYjJnRzhY0QXuo4Isw.jpg",
+      "genre_ids": [
+        28,
+        12,
+        878
+      ],
+      "id": 505642,
+      "original_language": "en",
+      "original_title": "Black Panther: Wakanda Forever",
+      "overview": "Queen Ramonda, Shuri, M’Baku, Okoye and the Dora Milaje fight to protect their nation from intervening world powers in the wake of King T’Challa’s death. As the Wakandans strive to embrace their next chapter, the heroes must band together with the help of War Dog Nakia and Everett Ross and forge a new path for the kingdom of Wakanda.",
+      "popularity": 3237.882,
+      "poster_path": "/sv1xJUazXeYqALzczSZ3O6nkH75.jpg",
+      "release_date": "2022-11-09",
+      "title": "Black Panther: Wakanda Forever",
+      "video": false,
+      "vote_average": 7.5,
+      "vote_count": 924
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/yNib9QAiyaopUJbaayKQ2xK7mYf.jpg",
+      "genre_ids": [
+        18,
+        28,
+        10752
+      ],
+      "id": 966220,
+      "original_language": "uk",
+      "original_title": "Снайпер. Білий ворон",
+      "overview": "Mykola is an eccentric pacifist who wants to be useful to humanity. When the war begins at Donbass, Mykola’s naive world is collapsing as the militants kill his pregnant wife and burn his home to the ground. Recovered, he makes a cardinal decision and gets enlisted in a sniper company. Having met his wife’s killers, he emotionally breaks down and arranges “sniper terror” for the enemy. He’s saved from a senseless death by his instructor who himself gets mortally wounded. The death of a friend leaves a “scar” and Mykola is ready to sacrifice his life.",
+      "popularity": 2062.289,
+      "poster_path": "/lZOODJzwuQo0etJJyBBZJOSdZcW.jpg",
+      "release_date": "2022-05-03",
+      "title": "Sniper: The White Raven",
+      "video": false,
+      "vote_average": 7.4,
+      "vote_count": 116
+    }
   ]
 }

@@ -2,10 +2,12 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { MovieComponent } from './movie/movie.component';
+import { WatchlistComponent } from './watchlist/watchlist.component';
 
 const routes: Routes = [  
   { path: '', component: HomeComponent },
-{ path: 'movie', component: MovieComponent },
+  { path: 'movie', component: MovieComponent },
+  { path: 'watchlist', component: WatchlistComponent },
 ];
 
 @NgModule({
