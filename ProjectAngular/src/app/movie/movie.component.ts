@@ -15,7 +15,12 @@ export class MovieComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  addToSeen(movie:Movie){
+    this.movieService.postSeen(movie)
+    .subscribe(data => {
+      console.log(data)
+    })
+  }
   addToWatchlist(movie:Movie){
     this.movieService.postWatchitem(movie)
     .subscribe(data => {

@@ -2,26 +2,6 @@
   "watchlist": [
     {
       "adult": false,
-      "backdrop_path": "/bQXAqRx2Fgc46uCVWgoPz5L5Dtr.jpg",
-      "genre_ids": [
-        28,
-        14,
-        878
-      ],
-      "id": 436270,
-      "original_language": "en",
-      "original_title": "Black Adam",
-      "overview": "Nearly 5,000 years after he was bestowed with the almighty powers of the Egyptian gods—and imprisoned just as quickly—Black Adam is freed from his earthly tomb, ready to unleash his unique form of justice on the modern world.",
-      "popularity": 22201.949,
-      "poster_path": "/3zXceNTtyj5FLjwQXuPvLYK5YYL.jpg",
-      "release_date": "2022-10-19",
-      "title": "Black Adam",
-      "video": false,
-      "vote_average": 6.9,
-      "vote_count": 1387
-    },
-    {
-      "adult": false,
       "backdrop_path": "/olPXihyFeeNvnaD6IOBltgIV1FU.jpg",
       "genre_ids": [
         27,
@@ -79,6 +59,130 @@
       "video": false,
       "vote_average": 7.4,
       "vote_count": 116
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/tIX6j3NzadlwGcJ52nuWdmtOQkg.jpg",
+      "genre_ids": [
+        27,
+        53,
+        9648
+      ],
+      "id": 717728,
+      "original_language": "en",
+      "original_title": "Jeepers Creepers: Reborn",
+      "overview": "Forced to travel with her boyfriend to a horror festival, Laine begins to experience disturbing visions associated with the urban legend of The Creeper. As the festival arrives and the blood-soaked entertainment builds to a frenzy, she becomes the center of it while something unearthly has been summoned.",
+      "popularity": 1333.803,
+      "poster_path": "/qVVegwPsW6n9unBtLWq1rzOutka.jpg",
+      "release_date": "2022-09-15",
+      "title": "Jeepers Creepers: Reborn",
+      "video": false,
+      "vote_average": 5.8,
+      "vote_count": 486
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/bQXAqRx2Fgc46uCVWgoPz5L5Dtr.jpg",
+      "genre_ids": [
+        28,
+        14,
+        878
+      ],
+      "id": 436270,
+      "original_language": "en",
+      "original_title": "Black Adam",
+      "overview": "Nearly 5,000 years after he was bestowed with the almighty powers of the Egyptian gods—and imprisoned just as quickly—Black Adam is freed from his earthly tomb, ready to unleash his unique form of justice on the modern world.",
+      "popularity": 21272.277,
+      "poster_path": "/3zXceNTtyj5FLjwQXuPvLYK5YYL.jpg",
+      "release_date": "2022-10-19",
+      "title": "Black Adam",
+      "video": false,
+      "vote_average": 7.1,
+      "vote_count": 1574
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/kmzppWh7ljL6K9fXW72bPN3gKwu.jpg",
+      "genre_ids": [
+        14,
+        28,
+        35,
+        80
+      ],
+      "id": 1013860,
+      "original_language": "en",
+      "original_title": "R.I.P.D. 2: Rise of the Damned",
+      "overview": "When Sheriff Roy Pulsipher finds himself in the afterlife, he joins a special police force and returns to Earth to save humanity from the undead.",
+      "popularity": 3817.14,
+      "poster_path": "/g4yJTzMtOBUTAR2Qnmj8TYIcFVq.jpg",
+      "release_date": "2022-11-15",
+      "title": "R.I.P.D. 2: Rise of the Damned",
+      "video": false,
+      "vote_average": 6.9,
+      "vote_count": 132
+    }
+  ],
+  "seen": [
+    {
+      "adult": false,
+      "backdrop_path": "/bQXAqRx2Fgc46uCVWgoPz5L5Dtr.jpg",
+      "genre_ids": [
+        28,
+        14,
+        878
+      ],
+      "id": 436270,
+      "original_language": "en",
+      "original_title": "Black Adam",
+      "overview": "Nearly 5,000 years after he was bestowed with the almighty powers of the Egyptian gods—and imprisoned just as quickly—Black Adam is freed from his earthly tomb, ready to unleash his unique form of justice on the modern world.",
+      "popularity": 21272.277,
+      "poster_path": "/3zXceNTtyj5FLjwQXuPvLYK5YYL.jpg",
+      "release_date": "2022-10-19",
+      "title": "Black Adam",
+      "video": false,
+      "vote_average": 7.1,
+      "vote_count": 1574
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/kmzppWh7ljL6K9fXW72bPN3gKwu.jpg",
+      "genre_ids": [
+        14,
+        28,
+        35,
+        80
+      ],
+      "id": 1013860,
+      "original_language": "en",
+      "original_title": "R.I.P.D. 2: Rise of the Damned",
+      "overview": "When Sheriff Roy Pulsipher finds himself in the afterlife, he joins a special police force and returns to Earth to save humanity from the undead.",
+      "popularity": 3817.14,
+      "poster_path": "/g4yJTzMtOBUTAR2Qnmj8TYIcFVq.jpg",
+      "release_date": "2022-11-15",
+      "title": "R.I.P.D. 2: Rise of the Damned",
+      "video": false,
+      "vote_average": 6.9,
+      "vote_count": 132
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/yYrvN5WFeGYjJnRzhY0QXuo4Isw.jpg",
+      "genre_ids": [
+        28,
+        12,
+        878
+      ],
+      "id": 505642,
+      "original_language": "en",
+      "original_title": "Black Panther: Wakanda Forever",
+      "overview": "Queen Ramonda, Shuri, M’Baku, Okoye and the Dora Milaje fight to protect their nation from intervening world powers in the wake of King T’Challa’s death. As the Wakandans strive to embrace their next chapter, the heroes must band together with the help of War Dog Nakia and Everett Ross and forge a new path for the kingdom of Wakanda.",
+      "popularity": 3011.765,
+      "poster_path": "/sv1xJUazXeYqALzczSZ3O6nkH75.jpg",
+      "release_date": "2022-11-09",
+      "title": "Black Panther: Wakanda Forever",
+      "video": false,
+      "vote_average": 7.5,
+      "vote_count": 950
     }
   ]
 }
