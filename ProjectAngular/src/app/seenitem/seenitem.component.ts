@@ -4,14 +4,14 @@ import { Observable, Subscription } from 'rxjs';
 import { Movie } from '../movie';
 import { MovieService } from '../movie.service';
 @Component({
-  selector: 'app-watchitem',
-  templateUrl: './watchitem.component.html',
-  styleUrls: ['./watchitem.component.css']
+  selector: 'app-seenitem',
+  templateUrl: './seenitem.component.html',
+  styleUrls: ['./seenitem.component.css']
 })
-export class WatchitemComponent implements OnInit {
+export class SeenitemComponent implements OnInit {
   @Input() movie: Movie = { id: 0, title: "", poster_path: "/kyCzpKpuF32nRl1QQgXqcQnnLAj.jpg", overview: "", vote_average: 0, vote_count: 0, release_date: "", genre_ids: [0] };
   apikey = "8a31694e372bf87df346f81ef6bd7705"
-  deleteCategorie$: Subscription = new Subscription();
+  deleteSeenitem$: Subscription = new Subscription();
   errorMessage: string = '';  
   constructor(private httpClient: HttpClient, private movieService: MovieService) { }
 
@@ -25,9 +25,9 @@ export class WatchitemComponent implements OnInit {
         console.log(data)
       })
   }
-  removeFromWatchlist(movieId: number) {
-    this.deleteCategorie$ = this.movieService.deleteWatchitem(movieId).subscribe({
-      next: (v) => this.movieService.getWatchlist(""),
+  removeFromSeen(movieId: number) {
+    this.deleteSeenitem$ = this.movieService.deleteSeenitem(movieId).subscribe({
+      next: (v) => this.movieService.getSeen(""),
       error: (e) => this.errorMessage = e.message
     });
     

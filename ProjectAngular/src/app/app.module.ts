@@ -10,6 +10,8 @@ import { WatchitemComponent } from './watchitem/watchitem.component';
 import { WatchlistComponent } from './watchlist/watchlist.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { SeenComponent } from './seen/seen.component';
+import { SeenitemComponent } from './seenitem/seenitem.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,7 +19,9 @@ import { HttpClientModule } from '@angular/common/http';
     HomeComponent,
     MenuComponent,
     WatchitemComponent,
-    WatchlistComponent
+    WatchlistComponent,
+    SeenComponent,
+    SeenitemComponent
   ],
   imports: [
     BrowserModule,

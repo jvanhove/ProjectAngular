@@ -3,11 +3,11 @@ import { Movie } from '../movie';
 import { MovieService } from '../movie.service';
 import { Observable, Subscription } from 'rxjs';
 @Component({
-  selector: 'app-watchlist',
-  templateUrl: './watchlist.component.html',
-  styleUrls: ['./watchlist.component.css']
+  selector: 'app-seen',
+  templateUrl: './seen.component.html',
+  styleUrls: ['./seen.component.css']
 })
-export class WatchlistComponent implements OnInit,OnDestroy {
+export class SeenComponent implements OnInit,OnDestroy {
   searchTerm: String = '';
   movies: Movie[] = [];
   subscription!: Subscription;
@@ -18,14 +18,14 @@ export class WatchlistComponent implements OnInit,OnDestroy {
   }
   refreshWatchlist() {
     this.subscription=
-    this.movieService.getWatchlist("")
+    this.movieService.getSeen("")
       .subscribe(data => {
         console.log(data)
         this.movies=data;
       })      
   }
   onSubmit(): void {
-    this.subscription=this.movieService.getWatchlist(this.searchTerm).subscribe(data => this.movies = data);
+    this.subscription=this.movieService.getSeen(this.searchTerm).subscribe(data => this.movies = data);
   }
   ngOnDestroy(): void {
     this.subscription.unsubscribe;
