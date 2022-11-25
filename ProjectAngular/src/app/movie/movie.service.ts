@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Movie } from './movie';
+import { Movie } from '../movie';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable, Subject, timer } from 'rxjs';
 import { repeatWhen, subscribeOn, switchMap, takeUntil } from 'rxjs/operators';
@@ -39,7 +39,6 @@ export class MovieService {
 putWatchitem(id: number,watchitem: Movie): Observable<Movie> {
   let headers = new HttpHeaders();
   headers = headers.set('Content-Type', 'application/json; charset=utf-8');
-  console.log("http://localhost:3000/watchlist", watchitem, {headers: headers})
   return this.httpClient.put<Movie>("http://localhost:3000/watchlist/"+id,watchitem, {headers: headers});
 }
   postWatchitem(watchitem: Movie): Observable<Movie> {
@@ -53,12 +52,6 @@ putWatchitem(id: number,watchitem: Movie): Observable<Movie> {
 deleteWatchitem(id: number): Observable<any> {
   return this.httpClient.delete<any>("http://localhost:3000/watchlist/" + id);
 }
-  // getMovieById(id: number) : Movie | null {
-  //   return  timer(1, 3000).pipe(switchMap(() => this.httpClient.get<Movie>("http://localhost:3000/movie")));
-  // }
-  // searchMovies(searchTerm: any): Observable<any>{
 
-
-  // }
 
 }

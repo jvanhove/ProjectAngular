@@ -2,7 +2,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Component, Input, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Movie } from '../movie';
-import { MovieService } from '../movie.service';
+import { MovieService } from '../movie/movie.service';
 @Component({
   selector: 'app-movie',
   templateUrl: './movie.component.html',
