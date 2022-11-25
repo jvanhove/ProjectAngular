@@ -8,6 +8,6 @@
     </div>  </form>
 <div class="row">
     <h1>Watchlist</h1>
-    <app-watchitem class="col-sm-12 col-md-12, col-lg-6, col-xl-4  d-flex align-items-stretch" *ngFor="let movie of movies" [movie]="movie">
-    </app-watchitem>
-</div>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 mx-auto py-6">
+        <app-watchitem class="col-sm-12 col-md-12, col-lg-2, col-xl-2  d-flex align-items-stretch" *ngFor="let movie of movies" [movie]="movie">
+    </app-watchitem></div>  </div>

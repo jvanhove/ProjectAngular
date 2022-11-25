@@ -13,21 +13,21 @@
                 d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
                 clip-rule="evenodd"></path>
         </svg>
-      </button>
-      <div class="w-full md:block md:w-auto" id="navbar-default" [hidden]="!hamburgerOpen">
+      </button >
+      <div class="w-full md:block md:w-auto" id="navbar-default" [hidden]="!hamburgerOpen" >
         <ul
-                class="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white ">
+                class="flex flex-col p-4 mt-4  bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white ">
           <li>
-            <a (click)="onHamburgerItemClick()" routerLink="/" routerLinkActive="active"
-               [routerLinkActiveOptions]="{ exact: true }" class="block py-2 pr-4 pl-3 rounded ">Home</a>
+            <a (click)="onHamburgerItemClick()" routerLink="/" routerLinkActive="active" 
+               [routerLinkActiveOptions]="{ exact: true }" class="block py-2 pr-4 pl-3 rounded  ">Home</a>
           </li>
           <li>
             <a (click)="onHamburgerItemClick()" routerLink="/seen" routerLinkActive="active"
-               [routerLinkActiveOptions]="{ exact: true }" class="block py-2 pr-4 pl-3 rounded">Seen movies</a>
+               [routerLinkActiveOptions]="{ exact: true }" class="block py-2 pr-4 pl-3 rounded hue-rotate-90">Seen movies</a>
           </li>
           <li>
             <a (click)="onHamburgerItemClick()" routerLink="/watchlist" routerLinkActive="active"
-               [routerLinkActiveOptions]="{ exact: true }" class="block py-2 pr-4 pl-3 rounded">Watchlist</a>
+               [routerLinkActiveOptions]="{ exact: true }" class="block py-2 pr-4 pl-3 rounded hue-rotate-180">Watchlist</a>
           </li>
         </ul>
       </div>
