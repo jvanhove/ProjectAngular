@@ -25,6 +25,12 @@ export class WatchitemComponent implements OnInit {
         console.log(data)
       })
   }
+  postComment(movie: Movie) {
+    this.movieService.putWatchitem(movie)
+      .subscribe(data => {
+        console.log(data)
+      })
+  }
   removeFromWatchlist(movieId: number) {
     this.deleteCategorie$ = this.movieService.deleteWatchitem(movieId).subscribe({
       next: (v) => this.movieService.getWatchlist(""),
