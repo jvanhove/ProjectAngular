@@ -2,7 +2,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Component, Input, OnInit } from '@angular/core';
 import { Observable, Subscription } from 'rxjs';
 import { Movie } from '../movie';
-import { MovieService } from '../movie.service';
+import { MovieService } from '../movie/movie.service';
 @Component({
   selector: 'app-watchitem',
   templateUrl: './watchitem.component.html',
@@ -13,10 +13,8 @@ export class WatchitemComponent implements OnInit {
   apikey = "8a31694e372bf87df346f81ef6bd7705"
   deleteCategorie$: Subscription = new Subscription();
   errorMessage: string = '';  
-  comment: string='';  
-  comments: string[]=[];
-  counter: number=0;
-  constructor(private httpClient: HttpClient, private movieService: MovieService) { }
+  comment: string='';
+  constructor(private movieService: MovieService) { }
 
 
   ngOnInit(): void {
@@ -28,17 +26,14 @@ export class WatchitemComponent implements OnInit {
         console.log(data)
       })
   }
+  addToSeen(movie:Movie){
+    this.movieService.postSeen(movie)
+    .subscribe(data => {
+      console.log(data)
+    })
+  }
   postComment(movie: Movie) {
-    this.counter=0;
-    this.comments=[];
-    movie.comments.forEach(obj => {
-      
-      this.comments[this.counter] = obj;
-      this.counter = this.counter +1;
-     
-  });
-  this.comments[this.counter] = this.comment;
-  movie.comments = this.comments;
+    movie.comments[movie.comments.length] = this.comment;
     this.movieService.putWatchitem(movie.id,movie)
       .subscribe(data => {
         console.log(data)

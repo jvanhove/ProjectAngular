@@ -2,7 +2,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Component, Input, OnInit } from '@angular/core';
 import { Observable, Subscription } from 'rxjs';
 import { Movie } from '../movie';
-import { MovieService } from '../movie.service';
+import { MovieService } from '../movie/movie.service';
 @Component({
   selector: 'app-seenitem',
   templateUrl: './seenitem.component.html',

@@ -1,9 +1,9 @@
-    <div class="max-w-sm rounded overflow-hidden shadow-lg">
+    <div class="max-w-sm rounded overflow-hidden shadow-lg" style="height: 850px">
         <img class="w-full" src='https://image.tmdb.org/t/p/w500{{movie.poster_path}}'>
         <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">{{movie.title}}</div>
             <p class="text-gray-700 text-base">
-                {{movie.overview}}</p>
+                {{movie.overview | shortenContent : 250}}</p>
         </div>
         <div>
 

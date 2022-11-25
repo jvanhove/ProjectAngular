@@ -19,47 +19,10 @@
       "title": "R.I.P.D. 2: Rise of the Damned",
       "video": false,
       "vote_average": 6.9,
-      "vote_count": 139
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/xDMIl84Qo5Tsu62c9DGWhmPI67A.jpg",
-      "genre_ids": [
-        28,
-        12,
-        878
-      ],
-      "id": 505642,
-      "original_language": "en",
-      "original_title": "Black Panther: Wakanda Forever",
-      "overview": "Queen Ramonda, Shuri, M’Baku, Okoye and the Dora Milaje fight to protect their nation from intervening world powers in the wake of King T’Challa’s death. As the Wakandans strive to embrace their next chapter, the heroes must band together with the help of War Dog Nakia and Everett Ross and forge a new path for the kingdom of Wakanda.",
-      "popularity": 2806.468,
-      "poster_path": "/sv1xJUazXeYqALzczSZ3O6nkH75.jpg",
-      "release_date": "2022-11-09",
-      "title": "Black Panther: Wakanda Forever",
-      "video": false,
-      "vote_average": 7.5,
-      "vote_count": 968
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/bQXAqRx2Fgc46uCVWgoPz5L5Dtr.jpg",
-      "genre_ids": [
-        28,
-        14,
-        878
-      ],
-      "id": 436270,
-      "original_language": "en",
-      "original_title": "Black Adam",
-      "overview": "Nearly 5,000 years after he was bestowed with the almighty powers of the Egyptian gods—and imprisoned just as quickly—Black Adam is freed from his earthly tomb, ready to unleash his unique form of justice on the modern world.",
-      "popularity": 17944.112,
-      "poster_path": "/pFlaoHTZeyNkG83vxsAJiGzfSsa.jpg",
-      "release_date": "2022-10-19",
-      "title": "Black Adam",
-      "video": false,
-      "vote_average": 7.2,
-      "vote_count": 1689
+      "vote_count": 139,
+      "comments": [
+        "fe"
+      ]
     }
   ],
   "seen": [
@@ -123,6 +86,65 @@
       "video": false,
       "vote_average": 7.5,
       "vote_count": 968
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/kpUre8wWSXn3D5RhrMttBZa6w1v.jpg",
+      "genre_ids": [
+        35,
+        10751,
+        14
+      ],
+      "id": 338958,
+      "original_language": "en",
+      "original_title": "Disenchanted",
+      "overview": "Disillusioned with life in the city, feeling out of place in suburbia, and frustrated that her happily ever after hasn’t been so easy to find, Giselle turns to the magic of Andalasia for help. Accidentally transforming the entire town into a real-life fairy tale and placing her family’s future happiness in jeopardy, she must race against time to reverse the spell and determine what happily ever after truly means to her and her family.",
+      "popularity": 2181.661,
+      "poster_path": "/4x3pt6hoLblBeHebUa4OyiVXFiM.jpg",
+      "release_date": "2022-11-16",
+      "title": "Disenchanted",
+      "video": false,
+      "vote_average": 7.5,
+      "vote_count": 318
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/olPXihyFeeNvnaD6IOBltgIV1FU.jpg",
+      "genre_ids": [
+        27,
+        9648,
+        53
+      ],
+      "id": 882598,
+      "original_language": "en",
+      "original_title": "Smile",
+      "overview": "After witnessing a bizarre, traumatic incident involving a patient, Dr. Rose Cotter starts experiencing frightening occurrences that she can't explain. As an overwhelming terror begins taking over her life, Rose must confront her troubling past in order to survive and escape her horrifying new reality.",
+      "popularity": 2082.448,
+      "poster_path": "/aPqcQwu4VGEewPhagWNncDbJ9Xp.jpg",
+      "release_date": "2022-09-23",
+      "title": "Smile",
+      "video": false,
+      "vote_average": 6.8,
+      "vote_count": 860
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/y5Z0WesTjvn59jP6yo459eUsbli.jpg",
+      "genre_ids": [
+        27,
+        53
+      ],
+      "id": 663712,
+      "original_language": "en",
+      "original_title": "Terrifier 2",
+      "overview": "After being resurrected by a sinister entity, Art the Clown returns to Miles County where he must hunt down and destroy a teenage girl and her younger brother on Halloween night.  As the body count rises, the siblings fight to stay alive while uncovering the true nature of Art's evil intent.",
+      "popularity": 1509.674,
+      "poster_path": "/b6IRp6Pl2Fsq37r9jFhGoLtaqHm.jpg",
+      "release_date": "2022-10-06",
+      "title": "Terrifier 2",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 661
     }
   ]
 }

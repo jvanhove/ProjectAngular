@@ -1,6 +1,6 @@
 import { Component, OnInit, Input, OnDestroy } from '@angular/core';
 import { Movie } from '../movie';
-import { MovieService } from '../movie.service';
+import { MovieService } from '../movie/movie.service';
 import { Observable, Subscription } from 'rxjs';
 @Component({
   selector: 'app-seen',
