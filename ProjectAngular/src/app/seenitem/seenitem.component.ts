@@ -9,7 +9,7 @@ import { MovieService } from '../movie.service';
   styleUrls: ['./seenitem.component.css']
 })
 export class SeenitemComponent implements OnInit {
-  @Input() movie: Movie = { id: 0, title: "", poster_path: "/kyCzpKpuF32nRl1QQgXqcQnnLAj.jpg", overview: "", vote_average: 0, vote_count: 0, release_date: "", genre_ids: [0] };
+  @Input() movie: Movie = { id: 0,  comments:[],title: "", poster_path: "/kyCzpKpuF32nRl1QQgXqcQnnLAj.jpg", overview: "", vote_average: 0, vote_count: 0, release_date: "", genre_ids: [0] };
   apikey = "8a31694e372bf87df346f81ef6bd7705"
   deleteSeenitem$: Subscription = new Subscription();
   errorMessage: string = '';  

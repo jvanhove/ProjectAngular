@@ -36,11 +36,11 @@ export class MovieService {
     console.log("http://localhost:3000/seen", watchitem, {headers: headers})
     return this.httpClient.post<Movie>("http://localhost:3000/seen", watchitem, {headers: headers});
 }
-putWatchitem(watchitem: Movie): Observable<Movie> {
+putWatchitem(id: number,watchitem: Movie): Observable<Movie> {
   let headers = new HttpHeaders();
   headers = headers.set('Content-Type', 'application/json; charset=utf-8');
   console.log("http://localhost:3000/watchlist", watchitem, {headers: headers})
-  return this.httpClient.post<Movie>("http://localhost:3000/watchlist", watchitem, {headers: headers});
+  return this.httpClient.put<Movie>("http://localhost:3000/watchlist/"+id,watchitem, {headers: headers});
 }
   postWatchitem(watchitem: Movie): Observable<Movie> {
     let headers = new HttpHeaders();

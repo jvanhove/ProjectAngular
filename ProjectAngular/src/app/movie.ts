@@ -7,5 +7,6 @@ export interface Movie {
     release_date: string;
     poster_path: string;
     vote_average: number;
+    comments: string[];
 
 }
